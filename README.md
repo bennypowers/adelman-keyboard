@@ -2,7 +2,7 @@
 [Aaron Solomon Adelman][adelman]'s ergonomic Hebrew keyboard layout, with some 
 minor modifications by Benny Powers.
 
-Presented as-is for xkb users.
+Presented as-is for xkb and neovim users.
 
 ![adelman keyboard layout](./adelman.png)
 
@@ -11,7 +11,7 @@ Presented as-is for xkb users.
 Append the definition to your system-wide xkb Hebrew layouts file.
 
 ```sh
-sudo cat adelman.xkb >> /usr/share/X11/xkb/symbols/il
+sudo cat xkb/adelman.xkb >> /usr/share/X11/xkb/symbols/il
 ```
 
 Or otherwise copy the contents in (perhaps with `sudoedit`)
@@ -24,8 +24,8 @@ in Fedora 38. I take no responsibility for breaking your system here, so beware,
 since once again: **principles**.
 
 ```sh
-sudo cp evdev.lst /usr/share/X11/xkb/rules/
-sudo cp evdev.xml /usr/share/X11/xkb/rules/
+sudo cp xkb/evdev.lst /usr/share/X11/xkb/rules/
+sudo cp xkb/evdev.xml /usr/share/X11/xkb/rules/
 ```
 
 Log out and back in again, *et voila*: הקלדה נוחה וארגונומית בעברית
