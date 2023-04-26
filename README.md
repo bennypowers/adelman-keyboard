@@ -1,5 +1,8 @@
 # Adelman Hebrew Keyboard Layout
-Presented as-is for xkb
+[Aaron Solomon Adelman][adelman]'s ergonomic Hebrew keyboard layout, with some 
+minor modifications by Benny Powers.
+
+Presented as-is for xkb users.
 
 ![adelman keyboard layout](./adelman.png)
 
@@ -26,3 +29,5 @@ sudo cp evdev.xml /usr/share/X11/xkb/rules/
 ```
 
 Log out and back in again, *et voila*: הקלדה נוחה וארגונומית בעברית
+
+[adelman]: https://web.archive.org/web/20160927075343/https://sites.google.com/site/aaronsolomonadelman/adelmankeyboard
