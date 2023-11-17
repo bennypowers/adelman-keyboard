@@ -1,3 +1,5 @@
+![Am Yisrael Chai - עם ישראל חי](https://bennypowers.dev/assets/flag.am.yisrael.chai.png)
+
 # Adelman Hebrew Keyboard Layout
 [Aaron Solomon Adelman][adelman]'s ergonomic Hebrew keyboard layout, with some 
 minor modifications by Benny Powers.
