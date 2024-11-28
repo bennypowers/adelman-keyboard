@@ -72,7 +72,6 @@ xkb_symbols "adelman" {
     key <AB08> { [ hebrew_zade,       underscore,   U05A6    ] }; // Merkha kefula
     key <AB09> { [ hebrew_samech,     U05C2,        U05A5    ] }; // Sin dot, Merkha
     key <AB10> { [ hebrew_gimel,      underscore,   U059A    ] }; // Yethiv
-
 };
 
 
